@@ -13,7 +13,7 @@ export default function Topics() {
   return (
     <div>
       <h1 className='text-center col-12'>Topics</h1>
-      <ul>
+      <ul className='row justify-content-center'>
         <li>
           <Link to={`${match.url}/components`}> Components </Link>
         </li>
