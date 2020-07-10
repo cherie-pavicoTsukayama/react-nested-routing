@@ -2,6 +2,8 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <h1 className='text-center'>Welcome Home</h1>
+    <div>
+      <h1 className='text-center col-12'>Welcome Home</h1>
+    </div>
   )
 }
