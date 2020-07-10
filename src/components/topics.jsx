@@ -5,6 +5,7 @@ import {
   Link,
   useRouteMatch
 } from "react-router-dom";
+import Topic from './topic';
 
 export default function Topics() {
   let match = useRouteMatch();
