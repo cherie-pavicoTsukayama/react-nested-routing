@@ -25,3 +25,8 @@ li {
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 5px;
 }
+
+.hurray {
+  color: orange;
+  text-decoration: underline;
+}

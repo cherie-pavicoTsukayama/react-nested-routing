@@ -3,7 +3,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
+  // Link,
+  NavLink
   // useRouteMatch,
   // useParams
 } from "react-router-dom";
@@ -18,13 +19,15 @@ export default function App() {
         <nav className="my-4 col-12 align-self-center">
           <ul className="row p-0 d-flex justify-content-center">
             <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <Link to="/topics">Topics</Link>
+              <NavLink to="/topics" activeClassName="hurray">
+                Topics
+              </NavLink >
             </li>
           </ul>
         </nav>
