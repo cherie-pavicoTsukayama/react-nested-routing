@@ -1,9 +1,9 @@
 # Nested React Router
-Using this as my playground to understand the basics of react router, how to create nested routers and stylize with CSS while using routers. 
+Using this as my playground to understand the basics of react router, how to create nested routers and stylize with CSS while using routers.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Final Result
-<img src="public/images/nested routing.gif">
+<img src="public/images/react router nested links.gif">
 
 ## Available Scripts
 
