@@ -25,3 +25,19 @@ li {
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 5px;
 }
+
+.hurray {
+  color: orange;
+  border-bottom: 1px solid orange;
+  padding: 5px;
+}
+
+a{
+   padding: 5px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+
+}
