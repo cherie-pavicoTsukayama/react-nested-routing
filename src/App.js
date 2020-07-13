@@ -19,10 +19,10 @@ export default function App() {
         <nav className="my-4 col-12 align-self-center">
           <ul className="row p-0 d-flex justify-content-center">
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink exact to="/" activeClassName="hurray">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/about" activeClassName="hurray">About</NavLink>
             </li>
             <li>
               <NavLink to="/topics" activeClassName="hurray">

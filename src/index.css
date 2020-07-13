@@ -28,5 +28,16 @@ li {
 
 .hurray {
   color: orange;
-  text-decoration: underline;
+  border-bottom: 1px solid orange;
+  padding: 5px;
+}
+
+a{
+   padding: 5px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+
 }
